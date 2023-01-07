@@ -1,0 +1,26 @@
+{{ with (.Scratch.Get "params").footer }}
+<footer>
+    <article>
+        {{- . | safeHTML -}}
+    </article>
+    <center>
+        <small>
+            <a href="/">home</a>
+            ∙ <a href="https://github.com/shervinsahba">github</a>
+            ∙ <a href="https://www.twitter.com/phyzizizt">twitter</a>
+            ∙ <a href="https://www.linkedin.com/in/ssahba/">linkedin</a>
+            ∙ <a href="https://scholar.google.com/citations?user=znf_PXkAAAAJ&hl=en&oi=ao">gscholar</a>                
+            ∙ <a href="mailto:ssahba@uw-deletethisifhuman.edu">email</a>
+        </small>
+    </center>
+    <center>
+        <a href="https://en.wikipedia.org/wiki/Banana"><img src="/icons8/icons8-banana-96.png" width="10"></a>
+    </center>
+    <center>
+        <small>
+            <a href="#">go to the top</a>
+        </small>
+    </center>
+</footer>
+{{ end }}
+

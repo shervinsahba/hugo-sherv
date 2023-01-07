@@ -1,0 +1,17 @@
+baseURL = 'http://enchanter.ai"'
+languageCode = 'en-us'
+title = "Shervin Sahba's Page"
+theme = "hugo-theme-monochrome"
+paginate = 5
+
+
+[outputs]
+    home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+    series = "series"
+
+[markup.goldmark.renderer]
+    unsafe = false

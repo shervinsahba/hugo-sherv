@@ -1,0 +1,31 @@
+{{ define "content" }}
+
+<style>
+    .wrap-layer{
+       position: relative;
+    }
+    .text-layer{
+       position: absolute;
+       width: 100%;
+       height: auto;
+       top: 0;
+       left: 0;
+    }
+    .background-layer {
+        max-width: 100%;
+        max-height: 100vh;
+        margin: auto;
+    }
+</style>
+
+<div class="wrap-layer">
+    <div class="text-layer">
+        <h1><strong><center>404</center></strong></h1>
+        <center>Page does not converge</center>  
+    </div>
+    <div class="background-layer">
+        {{- partial "svg/vornoi2.svg" -}}
+    </div>
+</div>
+
+{{ end }}
