@@ -1,8 +1,8 @@
 ---
 title: "Contact"
-weight: 3
+weight: 999
 ---
-Questions, job offers, or funny jokes? Drop me a line at
+Questions? Comments? Good jokes? Drop me a line at
 
 [{{< email >}}](mailto:{{< email >}})
 

@@ -2,7 +2,7 @@
     <div class="brand">
         <div id="sidebar_btn">
             <svg id="menu_icon" width="26px" height="26px" viewBox="0 0 24 24">
-                {{- partial "svg/menu.html" -}}
+                {{- partial "svg/menu.svg" -}}
             </svg>
         </div>
 
@@ -18,17 +18,17 @@
     <div class="toolbox">
         <div id="theme_tool">
             <svg id="dark_mode_btn" class="hidden toolbox-btn" width="18px" height="18px" viewBox="0 0 24 24">
-                {{- partial "svg/sun.html" -}}
+                {{- partial "svg/sun.svg" -}}
             </svg>
             <svg id="light_mode_btn" class="hidden toolbox-btn" width="18px" height="18px" viewBox="0 0 24 24">
-                {{- partial "svg/moon.html" -}}
+                {{- partial "svg/moon.svg" -}}
             </svg>
         </div>
 
         {{ if (.Scratch.Get "params").enable_site_search }}
             <div id="search_tool">
                 <svg id="search_btn" class="toolbox-btn" width="18px" height="18px" viewBox="0 0 24 24">
-                    {{- partial "svg/search.html" -}}
+                    {{- partial "svg/search.svg" -}}
                 </svg>
                 {{- partial "search-menu.html" -}}
             </div>
@@ -55,6 +55,7 @@
                 </ul>
             </div>
         {{ end }}
+
 
     </div>
 </header>

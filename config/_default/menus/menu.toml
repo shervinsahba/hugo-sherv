@@ -5,14 +5,20 @@
   parent = ""
   weight = 1
 [[navbar]]
+  identifier = "research"
+  name = "Research"
+  url = "/Research/"
+  parent = ""
+  weight = 2
+[[navbar]]
   identifier = "about"
   name = "About"
   url = "/about/"
   parent = ""
-  weight = 2
+  weight = 3
 [[navbar]]
   identifier = "CV"
   name = "CV"
-  url = "/about/#cv?"
+  url = "../CV_Shervin_Sahba.pdf"
   parent = ""
-  weight = 3
+  weight = 4

@@ -1,10 +1,10 @@
 ---
 title: "CV"
-weight: 2
+weight: 3
 ---
 
-Check out my curriculum vitae / resume. 
+{{< icon-group >}}
+{{< icon name="file-text" link="../CV_Shervin_Sahba.pdf" >}} <-- Get my curriculum vitae / resume.
+{{</ icon-group >}}
 
-{{< icon name="file-text" link="../CV_Shervin_Sahba.pdf" >}}
-
-**summary**: I'm a PhD candidate in physics with a MS in both physics and applied math and some bachelor degrees in a smattering of subjects. My research has focused on photonics and machine learning. I enjoy coding, teaching, and discovery.
+**summary**: I'm a PhD Physics Candidate and a photonics and ML researcher with MS degrees in physics and applied math and BS degrees in management and psychology. My published research as a physicist focuses on problems in photonics coupled with machine learning. I previously worked as a classroom instructor and tutor in a variety of formats.
