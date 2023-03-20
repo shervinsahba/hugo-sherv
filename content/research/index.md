@@ -8,4 +8,4 @@ balloon_resources: "/research"
 ---
 #### Research
 
-See also my [google scholar](https://scholar.google.com/citations?user=znf_PXkAAAAJ&hl=en&oi=ao) and [research gate](https://www.researchgate.net/profile/Shervin-Sahba) profiles. Looking for my CV? Try [here](../../static/CV_Shervin_Sahba.pdf).
+See also my [google scholar](https://scholar.google.com/citations?user=znf_PXkAAAAJ&hl=en&oi=ao) and [research gate](https://www.researchgate.net/profile/Shervin-Sahba) profiles. Looking for my CV? Try [here](../../CV_Shervin_Sahba.pdf).

@@ -3,4 +3,4 @@ title: "Hi, I'm Shervin."
 weight: 1
 ---
 
-I'm a Physics PhD candidate working with the Department of Applied Mathematics the University of Washington, advised by [J. Nathan Kutz](https://faculty.washington.edu/kutz/).
+I'm a physicist and machine learning researcher, working through my Physics PhD candidacy at the University of Washington.
