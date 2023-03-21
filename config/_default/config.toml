@@ -1,4 +1,4 @@
-baseURL = 'http://enchanter.ai"'
+baseURL = 'https://enchanter.ai"'
 languageCode = 'en-us'
 title = "Shervin Sahba's Page"
 theme = "hugo-theme-monochrome"
