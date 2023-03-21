@@ -1,13 +1,15 @@
 +++
 author = "Shervin Sahba"
 title = "Personal website made with Hugo"
-date = "2023-03-20"
+date = "2022-09-01"
 description = "Code information for this website"
 tags = [
-    "hugo","website"
+    "hugo",
+    "website",
+    "css",
+    "html",
 ]
 +++
-
 
 I developed this website using the [hugo framework](https://gohugo.io/), which I highly recommend for static site generation, especially if you enjoy working with Markdown. 
 
