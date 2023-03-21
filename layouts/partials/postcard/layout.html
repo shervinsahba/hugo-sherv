@@ -11,6 +11,9 @@
                 <div class="postcard-summary">
                     <span>{{ .Summary | plainify }}</span>
                 </div>
+                <div class="postcard-link">
+                    <span>{{ .Permalink }}</span>
+                </div>
                 <div class="postcard-metadata">
                     <span>{{ .Date.Format "2006/01/02" }} · {{ template "breadcrumbtext" (dict "p1" .Page.Parent) }}</span>
                 </div>
