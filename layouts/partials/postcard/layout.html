@@ -3,7 +3,7 @@
 
 <div class="postcard-layout content-margin">
     {{ range ($ctx.Paginator).Pages }}
-        <a href="{{ .Permalink }}">
+        <a href="{{ .Permalink | replaceRE "\"" ""}}">
             <div class="postcard-item">
                 <div class="postcard-title">
                     <span>{{ .Title }}</span>
