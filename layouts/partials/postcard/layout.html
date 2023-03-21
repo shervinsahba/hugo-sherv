@@ -3,7 +3,7 @@
 
 <div class="postcard-layout content-margin">
     {{ range ($ctx.Paginator).Pages }}
-        <a href={{ .Permalink }}>
+        <a href="{{ .Permalink }}">
             <div class="postcard-item">
                 <div class="postcard-title">
                     <span>{{ .Title }}</span>
@@ -12,7 +12,7 @@
                     <span>{{ .Summary | plainify }}</span>
                 </div>
                 <div class="postcard-metadata">
-                    <span>{{ .Permalink }}</span>
+                    <span>{{ .Permalink | replaceRE "\"" ""}}</span>
                 </div>
                 <div class="postcard-metadata">
                     <span>{{ .Date.Format "2006/01/02" }} · {{ template "breadcrumbtext" (dict "p1" .Page.Parent) }}</span>
