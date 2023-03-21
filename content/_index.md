@@ -12,11 +12,17 @@ keywords:
 - gaming
 ---
 
+{{< typography font="Press Start 2P" size="20px" weight="bold">}}
 Hello world!
+{{< /typography >}}
 
-- [**research**](/research)
-- [**about**](/about)
-- [**posts**](/posts)
+{{< figure src="../images/Flammarion_cropped.png" >}}
+
+[**research**](/research)
+
+[**about**](/about)
+
+[**posts**](/posts)
 
 {{< icon-group >}}
     {{< icon name="github" link="https://github.com/shervinsahba" >}}
@@ -24,3 +30,6 @@ Hello world!
     {{< icon name="linkedin" link="https://www.linkedin.com/in/ssahba/" >}}
     {{< icon name="mail" link="/about#contact" >}}
 {{< /icon-group >}}
+
+
+
