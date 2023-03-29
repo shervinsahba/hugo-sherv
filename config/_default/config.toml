@@ -5,6 +5,10 @@ theme = "hugo-theme-monochrome"
 paginate = 5
 
 
+[Author]
+    name = "Shervin Sahba"
+    bio = "Shervin Sahba is a real human being and totally not an extra-terrestrial nor cybernetic construct."
+
 [outputs]
     home = ["HTML", "RSS", "JSON"]
 
