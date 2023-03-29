@@ -6,6 +6,4 @@ tags = ["index"]
 type = "postcard"
 +++
 
-Musings and knowledge...
-
 {{< terms-cloud terms="tags" >}}
