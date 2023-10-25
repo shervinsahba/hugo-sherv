@@ -15,15 +15,15 @@ keywords:
 {{< figure src="../images/Flammarion_cropped.png" >}}
 
 
-[{{< typography font="Press Start 2P" size="20px" weight="normal">}}
+[{{< typography size="20px" weight="normal">}}
 research
 {{< /typography >}}](/research)
 
-[{{< typography font="Press Start 2P" size="20px" weight="normal">}}
+[{{< typography size="20px" weight="normal">}}
 about
 {{< /typography >}}](/about)
 
-[{{< typography font="Press Start 2P" size="20px" weight="normal">}}
+[{{< typography size="20px" weight="normal">}}
 posts
 {{< /typography >}}](/posts)
 
